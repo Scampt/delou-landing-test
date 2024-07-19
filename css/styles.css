@@ -34,7 +34,7 @@ main {
     width: 100vw;
     position: relative;
     height: 60vh; /* Ajustar alto de imagen */
-    background-image: url("/imgs/gomitas-main.png");
+    background-image: url("../imgs/gomitas-main.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -46,7 +46,7 @@ main {
 .main__ingredients-text {
     width: 400px;
     height: 400px;
-    background-image: url("/imgs/ingredientes.png");
+    background-image: url("../imgs/ingredientes.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -92,7 +92,7 @@ main {
 .star{
     width: 80px;
     height: 80px;
-    background-image: url("/imgs/star.png");
+    background-image: url("../imgs/star.png");
     background-repeat: no-repeat;
     position: absolute;
 }
