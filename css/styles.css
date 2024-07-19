@@ -89,6 +89,12 @@ main {
     text-align: center;
 }
 
+.stars {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
 .star{
     width: 80px;
     height: 80px;
@@ -99,12 +105,13 @@ main {
 
 .star1 {
     right: 30px;
+    bottom: 50%;
     transform: rotate(50deg);
 }
 
 .star2, .star3 {
     left: 20px;
-    bottom: 130px;
+    bottom: 50%;
     background-size: 40px;
     transform: rotate(10deg);
 }

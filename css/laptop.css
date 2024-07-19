@@ -27,15 +27,15 @@ header {
 }
 
 .star1 {
-    bottom: 50px;
+    bottom: -70px;
 }
 
 .star2, .star3 {
-    bottom: 20px;
+    bottom: 2px;
 }
 
 .star3 {
-    bottom: -20px;
+    bottom: -70px;
 }
 
 .sugar-candy-link {
