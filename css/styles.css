@@ -34,7 +34,7 @@ main {
     width: 100vw;
     position: relative;
     height: 60vh; /* Ajustar alto de imagen */
-    background-image: url("/imgs/gomitas.jpg");
+    background-image: url("/imgs/gomitas-main.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
