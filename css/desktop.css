@@ -1,0 +1,72 @@
+main {
+    max-width: 1900px;
+}
+
+.main__ingredients__container, .sugar__candy__container {
+    max-width: 1900px;
+}
+
+.gomitas-container {
+    position: relative;
+}
+
+.gomitas-container {
+    justify-content: space-between;
+}
+
+.gomitas-feedback {
+    margin-top: 30px;
+    margin-right: 280px;
+}
+
+.comparativa-image-container {
+    margin-bottom: 9rem;
+}
+
+.icons-list {
+    margin-bottom: 150px;
+}
+
+.gomitas-img {
+    max-width: 200px;
+}
+
+.newsletter {
+    margin: 3rem 0rem;
+    margin-left: 300px;
+}
+
+.follows {
+    margin-right: 300px;
+}
+
+.follow-description {
+    width: 100%;
+}
+
+.gomitas-sin-azucar-image-container img {
+    width: 1200px;
+    height: 600px;
+}
+
+@media (min-width: 1676px) {
+    .stars {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .star {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .star1 {
+        top: 50%;
+        right: 60px;
+    }
+
+    .star2{
+        top: 50%;
+    }
+}

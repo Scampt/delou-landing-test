@@ -1,0 +1,206 @@
+header {
+    text-align: start;
+    padding: 0.5rem;
+}
+
+.header-title {
+    margin-left: 30px;
+}
+
+.main__ingredients-text {
+    width: 460px;
+    height: 460px;
+}
+
+.sugar__candy__container {
+    padding: 2.5rem;
+}
+
+.low-sugar-text, .lorem-text, .candy-text {
+    font-size: 1.8rem;
+    line-height: 20px;
+}
+
+.star {
+    width: 170px;
+    height: 170px;
+}
+
+.star1 {
+    bottom: 50px;
+}
+
+.star2, .star3 {
+    bottom: 20px;
+}
+
+.star3 {
+    bottom: -20px;
+}
+
+.sugar-candy-link {
+    width: 25%;
+    padding: 0.4rem;
+}
+
+.addvertising-laptop-add {
+    display: block;
+}
+
+.addvertising-container {
+    padding: 0.5rem;
+}
+
+.sugar-free-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -90px;
+}
+
+.sugar-free-info {
+    bottom: 0;
+    margin-right: 20px;
+    justify-content: start;
+    align-items: start;
+}
+
+.gomitas-container {
+    display: flex;
+}
+
+.gomitas-tercera-foto {
+    width: 50%;
+    max-width: 1200px;
+}
+
+.gomitas-feedback {
+    width: 100%;
+    padding-top: 20%;
+    max-width: 500px;
+}
+
+.gomitas-sin-azucar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 1.5rem 0rem;
+}
+
+.comparativa-image-container {
+    width: 50%;
+    margin: auto;
+    max-width: 900px;
+    margin-bottom: 6rem;
+    overflow: visible;
+}
+
+.comparativa-img {
+    margin-bottom: 20%;
+}
+
+.bolsa-gomitas {
+    width: 40%;
+    opacity: 1;
+}
+
+.mango {
+    top: 30%;
+    left: -50%;
+}
+
+.fractales {
+    right: -50%;
+    width: 40%;
+}
+
+.icons-list {
+    gap: 80px;
+}
+
+.newsletter-container {
+    display: flex;
+    gap: 50px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+    margin-left: 30px;
+}
+
+.newsletter-description {
+    text-align: start;
+}
+
+.newsletter-title {
+    text-align: start;
+}
+
+.suscribirse-button {
+    right: 0px
+}
+
+.follows {
+    margin-top: 1rem;
+}
+
+.follow-description {
+    width: 70%;
+}
+
+.gomitas-img {
+    width: 20%;
+    left: 41%;
+}
+
+footer {
+    align-items: baseline;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+
+.logo-footer {
+    width: 30%;
+}
+
+.footer-menus {
+    flex-direction: row;
+    gap: 80px;
+}
+
+.footer-list {
+    justify-content: start;
+    align-items: start;
+}
+
+@media (min-width: 700px) {
+    .icons-list {
+        margin-bottom: 50px;
+    }
+    .logo-footer {
+        max-width: 180px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .gomitas-feedback img {
+        margin-left: 3% ;
+        margin-top: 10%;
+    }
+
+    .sugar__candy__container {
+        padding: 3.5rem;
+    }
+
+    .sugar-free-container {
+        margin-bottom: -200px;
+    }
+
+    .newsletter-container {
+        padding-bottom: 4rem;
+    }
+}
